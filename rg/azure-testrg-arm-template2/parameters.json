@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "rgName": {
-            "value": "az104armtest-rg"
+            "value": "az104armtest2-rg"
         },
         "rgLocation": {
             "value": "eastus"
@@ -11,7 +11,7 @@
         "tags": {
             "value": {
                 "billing": "colindept"
-            
+            }
         }
     }
 }
