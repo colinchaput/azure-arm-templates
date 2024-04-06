@@ -6,10 +6,10 @@
             "value": "eastus"
         },
         "networkInterfaceName": {
-            "value": "myvm276"
+            "value": "myubuntuvm264"
         },
         "networkSecurityGroupName": {
-            "value": "myvm-nsg"
+            "value": "myubuntuvm-nsg"
         },
         "networkSecurityGroupRules": {
             "value": [
@@ -32,7 +32,7 @@
             "value": "default"
         },
         "virtualNetworkName": {
-            "value": "myvm-vnet"
+            "value": "myubuntuvm-vnet"
         },
         "addressPrefixes": {
             "value": [
@@ -50,7 +50,7 @@
             ]
         },
         "publicIpAddressName": {
-            "value": "myvm-ip"
+            "value": "myubuntuvm-ip"
         },
         "publicIpAddressType": {
             "value": "Static"
@@ -62,13 +62,13 @@
             "value": "Delete"
         },
         "virtualMachineName": {
-            "value": "myvm"
+            "value": "myubuntuvm"
         },
         "virtualMachineComputerName": {
-            "value": "myvm"
+            "value": "myubuntuvm"
         },
         "virtualMachineRG": {
-            "value": "az104armtest-rg"
+            "value": "myubuntuvm_group"
         },
         "osDiskType": {
             "value": "StandardSSD_LRS"
@@ -86,31 +86,16 @@
             "value": false
         },
         "adminUsername": {
-            "value": "azureuser"
+            "value": "adminuser"
+        },
+        "adminPassword": {
+            "value": null
         },
         "patchMode": {
             "value": "AutomaticByPlatform"
         },
         "rebootSetting": {
             "value": "IfRequired"
-        },
-        "autoShutdownStatus": {
-            "value": "Enabled"
-        },
-        "autoShutdownTime": {
-            "value": "23:00"
-        },
-        "autoShutdownTimeZone": {
-            "value": "Eastern Standard Time"
-        },
-        "autoShutdownNotificationStatus": {
-            "value": "Enabled"
-        },
-        "autoShutdownNotificationLocale": {
-            "value": "en"
-        },
-        "autoShutdownNotificationEmail": {
-            "value": "colinchaput@gmail.com"
         }
     }
 }
